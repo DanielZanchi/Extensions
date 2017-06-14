@@ -18,3 +18,4 @@ extension SKProduct {
         return formatter.string(from: self.price)!
     }
 }
+

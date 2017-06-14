@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		307B2F681EF14982005FB6B0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307B2F671EF14982005FB6B0 /* GameScene.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,8 +30,9 @@
 
 /* Begin PBXFileReference section */
 		2B528211FAA4E81FA769C652 /* Pods-Extensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Extensions_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Extensions_Tests/Pods-Extensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		307B2F671EF14982005FB6B0 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		36BD31653A2F0A0C314358A2 /* Pods-Extensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Extensions_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Extensions_Tests/Pods-Extensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		546169F4D8E14BA4CB2E7AB9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		546169F4D8E14BA4CB2E7AB9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Extensions_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Extensions_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +46,8 @@
 		746D9D887456A9E1B517986B /* Pods-Extensions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Extensions_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Extensions_Example/Pods-Extensions_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B303E6A13691641C13C5EE54 /* Pods_Extensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Extensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF88ECE7A7444900072C52F /* Pods-Extensions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Extensions_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Extensions_Example/Pods-Extensions_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C6D2067DB4D7209A8D7B0A9E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D7D4BDC130D7398BE0705F11 /* Extensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Extensions.podspec; path = ../Extensions.podspec; sourceTree = "<group>"; };
+		C6D2067DB4D7209A8D7B0A9E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D7D4BDC130D7398BE0705F11 /* Extensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Extensions.podspec; path = ../Extensions.podspec; sourceTree = "<group>"; };
 		EC3CC8113245357FB44C45CA /* Pods_Extensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Extensions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -95,6 +97,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				307B2F671EF14982005FB6B0 /* GameScene.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -361,6 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				307B2F681EF14982005FB6B0 /* GameScene.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
