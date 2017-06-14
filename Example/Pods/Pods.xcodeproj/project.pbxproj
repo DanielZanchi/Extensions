@@ -12,6 +12,9 @@
 		305F9FFB1EEEEA0800443335 /* SKProduct+LocalizedPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305F9FFA1EEEEA0800443335 /* SKProduct+LocalizedPrice.swift */; };
 		307B2F651EF147B6005FB6B0 /* SKAction+ColorChangeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307B2F641EF147B6005FB6B0 /* SKAction+ColorChangeAction.swift */; };
 		307B2F6C1EF15EEE005FB6B0 /* UIApplication+Screenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307B2F6B1EF15EEE005FB6B0 /* UIApplication+Screenshot.swift */; };
+		307B2F6F1EF16096005FB6B0 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307B2F6E1EF16096005FB6B0 /* Random.swift */; };
+		307B2F711EF160A2005FB6B0 /* UIColor+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307B2F701EF160A2005FB6B0 /* UIColor+RGB.swift */; };
+		307B2F731EF160B0005FB6B0 /* RadToDegrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307B2F721EF160B0005FB6B0 /* RadToDegrees.swift */; };
 		3DDF0EA5E15A5321373D10727A9A04DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		4F5CF14CAC14A1F91DADD822C6FA58FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		5FB35EB33A0D81912F0526E6DADC8235 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
@@ -39,6 +42,9 @@
 		305F9FFA1EEEEA0800443335 /* SKProduct+LocalizedPrice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKProduct+LocalizedPrice.swift"; sourceTree = "<group>"; };
 		307B2F641EF147B6005FB6B0 /* SKAction+ColorChangeAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+ColorChangeAction.swift"; sourceTree = "<group>"; };
 		307B2F6B1EF15EEE005FB6B0 /* UIApplication+Screenshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Screenshot.swift"; sourceTree = "<group>"; };
+		307B2F6E1EF16096005FB6B0 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		307B2F701EF160A2005FB6B0 /* UIColor+RGB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RGB.swift"; sourceTree = "<group>"; };
+		307B2F721EF160B0005FB6B0 /* RadToDegrees.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadToDegrees.swift; sourceTree = "<group>"; };
 		38768410954628B9DC728776FF331B3D /* Extensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Extensions-prefix.pch"; sourceTree = "<group>"; };
 		41E372470FD8479A3F1127ECBEFF85F9 /* Pods-Extensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Extensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		668F6CB9B48325DBF0C7BBC101096EE3 /* Pods-Extensions_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Extensions_Example-dummy.m"; sourceTree = "<group>"; };
@@ -136,6 +142,14 @@
 				307B2F6B1EF15EEE005FB6B0 /* UIApplication+Screenshot.swift */,
 			);
 			name = UIApplication;
+			sourceTree = "<group>";
+		};
+		307B2F741EF160DD005FB6B0 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				307B2F701EF160A2005FB6B0 /* UIColor+RGB.swift */,
+			);
+			name = UIColor;
 			sourceTree = "<group>";
 		};
 		3390A356B75C9CB8CAFC2DE891ABFABD /* Pods-Extensions_Example */ = {
@@ -245,6 +259,9 @@
 		D4F3B5F44718861405B2BC05B71B3415 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				307B2F721EF160B0005FB6B0 /* RadToDegrees.swift */,
+				307B2F6E1EF16096005FB6B0 /* Random.swift */,
+				307B2F741EF160DD005FB6B0 /* UIColor */,
 				307B2F6D1EF15EF9005FB6B0 /* UIApplication */,
 				307B2F661EF147C2005FB6B0 /* SpriteKit */,
 				305F9FFC1EEEEA1200443335 /* StoreKit */,
@@ -381,7 +398,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BF73E3DD176BA7EE6D02AD3EB7626E4 /* Extensions-dummy.m in Sources */,
+				307B2F731EF160B0005FB6B0 /* RadToDegrees.swift in Sources */,
 				307B2F6C1EF15EEE005FB6B0 /* UIApplication+Screenshot.swift in Sources */,
+				307B2F6F1EF16096005FB6B0 /* Random.swift in Sources */,
+				307B2F711EF160A2005FB6B0 /* UIColor+RGB.swift in Sources */,
 				307B2F651EF147B6005FB6B0 /* SKAction+ColorChangeAction.swift in Sources */,
 				305F9FFB1EEEEA0800443335 /* SKProduct+LocalizedPrice.swift in Sources */,
 			);
