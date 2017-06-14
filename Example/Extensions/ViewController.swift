@@ -18,6 +18,12 @@ class ViewController: UIViewController {
         
         let screenshot = UIApplication.shared.screenshot
         UIImageWriteToSavedPhotosAlbum(screenshot!, nil, nil, nil)
+        
+        
+        
+        let colorFromRGB = UIColor(r: 200, g: 200, b: 200, alpha: 1.0)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,3 +32,4 @@ class ViewController: UIViewController {
     }
 
 }
+

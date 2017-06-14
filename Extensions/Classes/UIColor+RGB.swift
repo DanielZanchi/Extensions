@@ -9,9 +9,9 @@
 import Foundation
 import UIKit
 
-extension UIColor {
+public extension UIColor {
     // Construct a color from HEXRGB
-    convenience init(rgbHEX: UInt) {
+    public convenience init(rgbHEX: UInt) {
         self.init(
             red: CGFloat((rgbHEX & 0xFF0000) >> 16) / 255.0,
             green: CGFloat((rgbHEX & 0x00FF00) >> 8) / 255.0,
@@ -21,7 +21,7 @@ extension UIColor {
     }
     
     // Construct a color from rgb values 0-255
-    convenience init(r: Int, g: Int, b: Int, alpha: CGFloat) {
+    public convenience init(r: Int, g: Int, b: Int, alpha: CGFloat) {
         self.init(
             red: CGFloat(r) / 255.0,
             green: CGFloat(g) / 255.0,
