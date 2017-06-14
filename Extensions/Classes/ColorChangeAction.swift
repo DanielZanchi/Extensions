@@ -10,7 +10,7 @@ import SpriteKit
 
 extension SKAction {
     // Returns an action to change the color of a SKShapeNode
-    static func colorTransitionAction(fromColor : UIColor, toColor : UIColor, duration : Double = 2.8, fill: Bool = true, stroke: Bool = true) -> SKAction
+    static public func colorTransitionAction(fromColor : UIColor, toColor : UIColor, duration : Double = 2.8, fill: Bool = true, stroke: Bool = true) -> SKAction
     {
         
         var frgba = [CGFloat(0.0), CGFloat(0.0), CGFloat(0.0), CGFloat(0.0)]
