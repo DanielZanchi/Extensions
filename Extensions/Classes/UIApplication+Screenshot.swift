@@ -10,6 +10,7 @@ import UIKit
 
 extension UIApplication {
     // returns a Screenshot of the current screen. 
+    
     // usage:
     // let screenshot = UIApplication.shared.screenShot!
     // UIImageWriteToSavedPhotosAlbum(screenshot, nil, nil, nil)
