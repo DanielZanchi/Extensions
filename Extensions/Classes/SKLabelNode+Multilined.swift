@@ -9,7 +9,7 @@
 import SpriteKit
 
 extension SKLabelNode {
-    func multilined() -> SKLabelNode {
+    public func multilined() -> SKLabelNode {
         let substrings: [String] = self.text!.components(separatedBy: "\n")
         return substrings.enumerated().reduce(SKLabelNode()) {
             let label = SKLabelNode(fontNamed: self.fontName)
