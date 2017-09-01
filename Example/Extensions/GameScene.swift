@@ -20,6 +20,21 @@ class GameScene: SKScene {
         let shape = SKShapeNode()
         shape.run(SKAction.colorTransitionAction(fromColor: UIColor.black, toColor: UIColor.white))
     }
+    
+    func multilinedLabelNode() {
+        let creditsString = "Coded with love by Daniel Zanchi\n\nGraphics by Daniel Zanchi\n\nSome images were created by Freepik"
+        print(creditsString)
+        var creditsText = SKLabelNode(text: creditsString)
+        creditsText.fontName = "YuKyo-Medium"
+        creditsText.fontColor = SKColor.black
+        creditsText.alpha = 1
+        creditsText.fontSize = 16
+        creditsText.verticalAlignmentMode = .center
+        creditsText.name = "CreditsText"
+        creditsText = creditsText.multilined()
+        creditsText.position = centerOfScreen
+        creditsText.zPosition = 13
+    }
 }
 
 
