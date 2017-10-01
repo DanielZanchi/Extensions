@@ -32,7 +32,7 @@ class GameScene: SKScene {
         creditsText.verticalAlignmentMode = .center
         creditsText.name = "CreditsText"
         creditsText = creditsText.multilined()
-        creditsText.position = centerOfScreen
+        creditsText.position = CGPoint.zero
         creditsText.zPosition = 13
     }
 }

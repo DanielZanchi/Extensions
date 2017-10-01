@@ -22,9 +22,11 @@ class ViewController: UIViewController {
         
         
         let colorFromRGB = UIColor(r: 200, g: 200, b: 200, alpha: 1.0)
+        print(colorFromRGB)
         
         let degrees: CGFloat = 30
         let radians = degrees.degreesToRadians
+        print(radians)
     }
 
     override func didReceiveMemoryWarning() {
