@@ -17,6 +17,7 @@
 		307B2F6F1EF16096005FB6B0 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307B2F6E1EF16096005FB6B0 /* Random.swift */; };
 		307B2F711EF160A2005FB6B0 /* UIColor+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307B2F701EF160A2005FB6B0 /* UIColor+RGB.swift */; };
 		307B2F731EF160B0005FB6B0 /* RadToDegrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307B2F721EF160B0005FB6B0 /* RadToDegrees.swift */; };
+		30904BD81F93999F00F5ACF2 /* String+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30904BD71F93999F00F5ACF2 /* String+Random.swift */; };
 		3DDF0EA5E15A5321373D10727A9A04DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		4F5CF14CAC14A1F91DADD822C6FA58FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		5FB35EB33A0D81912F0526E6DADC8235 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
@@ -48,6 +49,7 @@
 		307B2F6E1EF16096005FB6B0 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
 		307B2F701EF160A2005FB6B0 /* UIColor+RGB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RGB.swift"; sourceTree = "<group>"; };
 		307B2F721EF160B0005FB6B0 /* RadToDegrees.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadToDegrees.swift; sourceTree = "<group>"; };
+		30904BD71F93999F00F5ACF2 /* String+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Random.swift"; sourceTree = "<group>"; };
 		38768410954628B9DC728776FF331B3D /* Extensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Extensions-prefix.pch"; sourceTree = "<group>"; };
 		41E372470FD8479A3F1127ECBEFF85F9 /* Pods-Extensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Extensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		668F6CB9B48325DBF0C7BBC101096EE3 /* Pods-Extensions_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Extensions_Example-dummy.m"; sourceTree = "<group>"; };
@@ -154,6 +156,14 @@
 				307B2F701EF160A2005FB6B0 /* UIColor+RGB.swift */,
 			);
 			name = UIColor;
+			sourceTree = "<group>";
+		};
+		30904BD91F939ABF00F5ACF2 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				30904BD71F93999F00F5ACF2 /* String+Random.swift */,
+			);
+			name = String;
 			sourceTree = "<group>";
 		};
 		3390A356B75C9CB8CAFC2DE891ABFABD /* Pods-Extensions_Example */ = {
@@ -265,6 +275,7 @@
 			children = (
 				307B2F721EF160B0005FB6B0 /* RadToDegrees.swift */,
 				307B2F6E1EF16096005FB6B0 /* Random.swift */,
+				30904BD91F939ABF00F5ACF2 /* String */,
 				307B2F741EF160DD005FB6B0 /* UIColor */,
 				307B2F6D1EF15EF9005FB6B0 /* UIApplication */,
 				307B2F661EF147C2005FB6B0 /* SpriteKit */,
@@ -412,6 +423,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30904BD81F93999F00F5ACF2 /* String+Random.swift in Sources */,
 				1BF73E3DD176BA7EE6D02AD3EB7626E4 /* Extensions-dummy.m in Sources */,
 				307B2F731EF160B0005FB6B0 /* RadToDegrees.swift in Sources */,
 				307B2F6C1EF15EEE005FB6B0 /* UIApplication+Screenshot.swift in Sources */,

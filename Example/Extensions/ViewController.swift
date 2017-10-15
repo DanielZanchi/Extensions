@@ -15,11 +15,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+//        
+//        let screenshot = UIApplication.shared.screenshot
+//        UIImageWriteToSavedPhotosAlbum(screenshot!, nil, nil, nil)
         
-        let screenshot = UIApplication.shared.screenshot
-        UIImageWriteToSavedPhotosAlbum(screenshot!, nil, nil, nil)
-        
-        
+        let randomString = String.random(length: 8)
+        print(randomString)
         
         let colorFromRGB = UIColor(r: 200, g: 200, b: 200, alpha: 1.0)
         print(colorFromRGB)
