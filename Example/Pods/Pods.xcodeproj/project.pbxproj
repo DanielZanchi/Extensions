@@ -277,12 +277,12 @@
 			children = (
 				307B2F721EF160B0005FB6B0 /* RadToDegrees.swift */,
 				307B2F6E1EF16096005FB6B0 /* Random.swift */,
+				30491A8C1F9F52BA00968F11 /* Bundle+AppVersion.swift */,
 				30904BD91F939ABF00F5ACF2 /* String */,
 				307B2F741EF160DD005FB6B0 /* UIColor */,
 				307B2F6D1EF15EF9005FB6B0 /* UIApplication */,
 				307B2F661EF147C2005FB6B0 /* SpriteKit */,
 				305F9FFC1EEEEA1200443335 /* StoreKit */,
-				30491A8C1F9F52BA00968F11 /* Bundle+AppVersion.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";

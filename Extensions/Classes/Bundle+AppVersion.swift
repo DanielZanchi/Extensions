@@ -8,15 +8,15 @@
 import Foundation
 
 
-extension Bundle {
-    var releaseVersionNumber: String? {
+public extension Bundle {
+    public var releaseVersionNumber: String? {
         return infoDictionary?["CFBundleShortVersionString"] as? String
     }
-    var buildVersionNumber: String? {
+    public var buildVersionNumber: String? {
         return infoDictionary?["CFBundleVersion"] as? String
     }
     
-    var versionAndBuild: String? {
+    public var versionAndBuild: String? {
         let ver: String = (infoDictionary?["CFBundleShortVersionString"] as? String)!
         let build: String = (infoDictionary?["CFBundleVersion"] as? String)!
         let str = ver + "(" + build + ")"
