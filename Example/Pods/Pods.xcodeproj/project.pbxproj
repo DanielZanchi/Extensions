@@ -11,6 +11,7 @@
 		1FDB0117CCA4D123F88CBDE18C35868A /* Pods-Extensions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A150AF05AFCCB6E26462C73A0DDDBAF /* Pods-Extensions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3000E72F1F598BF100D00BAE /* SKLabelNode+Multilined.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000E72E1F598BF100D00BAE /* SKLabelNode+Multilined.swift */; };
 		3000E7301F598BF100D00BAE /* SKLabelNode+Multilined.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000E72E1F598BF100D00BAE /* SKLabelNode+Multilined.swift */; };
+		30491A8D1F9F52BA00968F11 /* Bundle+AppVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30491A8C1F9F52BA00968F11 /* Bundle+AppVersion.swift */; };
 		305F9FFB1EEEEA0800443335 /* SKProduct+LocalizedPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305F9FFA1EEEEA0800443335 /* SKProduct+LocalizedPrice.swift */; };
 		307B2F651EF147B6005FB6B0 /* SKAction+ColorChangeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307B2F641EF147B6005FB6B0 /* SKAction+ColorChangeAction.swift */; };
 		307B2F6C1EF15EEE005FB6B0 /* UIApplication+Screenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307B2F6B1EF15EEE005FB6B0 /* UIApplication+Screenshot.swift */; };
@@ -43,6 +44,7 @@
 		22F3F4C9B6865F0DCBF4605C14AE7CF6 /* Pods-Extensions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Extensions_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2719D45D3759E1B5C606EC263CF6F5CB /* Extensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Extensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3000E72E1F598BF100D00BAE /* SKLabelNode+Multilined.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKLabelNode+Multilined.swift"; sourceTree = "<group>"; };
+		30491A8C1F9F52BA00968F11 /* Bundle+AppVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+AppVersion.swift"; sourceTree = "<group>"; };
 		305F9FFA1EEEEA0800443335 /* SKProduct+LocalizedPrice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKProduct+LocalizedPrice.swift"; sourceTree = "<group>"; };
 		307B2F641EF147B6005FB6B0 /* SKAction+ColorChangeAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+ColorChangeAction.swift"; sourceTree = "<group>"; };
 		307B2F6B1EF15EEE005FB6B0 /* UIApplication+Screenshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Screenshot.swift"; sourceTree = "<group>"; };
@@ -280,6 +282,7 @@
 				307B2F6D1EF15EF9005FB6B0 /* UIApplication */,
 				307B2F661EF147C2005FB6B0 /* SpriteKit */,
 				305F9FFC1EEEEA1200443335 /* StoreKit */,
+				30491A8C1F9F52BA00968F11 /* Bundle+AppVersion.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -429,6 +432,7 @@
 				307B2F6C1EF15EEE005FB6B0 /* UIApplication+Screenshot.swift in Sources */,
 				307B2F6F1EF16096005FB6B0 /* Random.swift in Sources */,
 				307B2F711EF160A2005FB6B0 /* UIColor+RGB.swift in Sources */,
+				30491A8D1F9F52BA00968F11 /* Bundle+AppVersion.swift in Sources */,
 				3000E72F1F598BF100D00BAE /* SKLabelNode+Multilined.swift in Sources */,
 				307B2F651EF147B6005FB6B0 /* SKAction+ColorChangeAction.swift in Sources */,
 				305F9FFB1EEEEA0800443335 /* SKProduct+LocalizedPrice.swift in Sources */,
