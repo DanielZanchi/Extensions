@@ -29,4 +29,31 @@ public extension UIColor {
             alpha: CGFloat(alpha)
         )
     }
+    
+    /**
+     Construct a color from HSB values 0-360, 0-100, 0-100, 0-1
+     
+     *Values*
+     
+     `h` Hue goes from 0 to 360.
+     
+     `s` Saturation goes from 0 to 100.
+     
+     `b` Brightness goes from 0 to 100.
+     
+     'a' Alpha from 0 to 1.
+     
+     - Author:
+     Daniel Zanchi
+     - Version:
+     0.1
+     */
+    public convenience init(h: Int, s: Int, b: Int, alpha: CGFloat) {
+        self.init(
+            hue: CGFloat(h) / 360,
+            saturation: CGFloat(s) / 100,
+            brightness: CGFloat(b) / 100,
+            alpha: CGFloat(alpha)
+        )
+    }
 }
