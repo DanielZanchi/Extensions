@@ -19,6 +19,7 @@
 		307B2F711EF160A2005FB6B0 /* UIColor+RGB+HSB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307B2F701EF160A2005FB6B0 /* UIColor+RGB+HSB.swift */; };
 		307B2F731EF160B0005FB6B0 /* RadToDegrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307B2F721EF160B0005FB6B0 /* RadToDegrees.swift */; };
 		30904BD81F93999F00F5ACF2 /* String+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30904BD71F93999F00F5ACF2 /* String+Random.swift */; };
+		30CEC6D92118B2BE001D6A87 /* UILabel + BubbleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEC6D82118B2BE001D6A87 /* UILabel + BubbleAnimation.swift */; };
 		3DDF0EA5E15A5321373D10727A9A04DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		4F5CF14CAC14A1F91DADD822C6FA58FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		5FB35EB33A0D81912F0526E6DADC8235 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
@@ -52,6 +53,7 @@
 		307B2F701EF160A2005FB6B0 /* UIColor+RGB+HSB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RGB+HSB.swift"; sourceTree = "<group>"; };
 		307B2F721EF160B0005FB6B0 /* RadToDegrees.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadToDegrees.swift; sourceTree = "<group>"; };
 		30904BD71F93999F00F5ACF2 /* String+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Random.swift"; sourceTree = "<group>"; };
+		30CEC6D82118B2BE001D6A87 /* UILabel + BubbleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + BubbleAnimation.swift"; sourceTree = "<group>"; };
 		38768410954628B9DC728776FF331B3D /* Extensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Extensions-prefix.pch"; sourceTree = "<group>"; };
 		41E372470FD8479A3F1127ECBEFF85F9 /* Pods-Extensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Extensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		668F6CB9B48325DBF0C7BBC101096EE3 /* Pods-Extensions_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Extensions_Example-dummy.m"; sourceTree = "<group>"; };
@@ -168,6 +170,14 @@
 			name = String;
 			sourceTree = "<group>";
 		};
+		30CEC6D72118B2AC001D6A87 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				30CEC6D82118B2BE001D6A87 /* UILabel + BubbleAnimation.swift */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
 		3390A356B75C9CB8CAFC2DE891ABFABD /* Pods-Extensions_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -275,6 +285,7 @@
 		D4F3B5F44718861405B2BC05B71B3415 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				30CEC6D72118B2AC001D6A87 /* UILabel */,
 				307B2F721EF160B0005FB6B0 /* RadToDegrees.swift */,
 				307B2F6E1EF16096005FB6B0 /* Random.swift */,
 				30491A8C1F9F52BA00968F11 /* Bundle+AppVersion.swift */,
@@ -435,6 +446,7 @@
 				30491A8D1F9F52BA00968F11 /* Bundle+AppVersion.swift in Sources */,
 				3000E72F1F598BF100D00BAE /* SKLabelNode+Multilined.swift in Sources */,
 				307B2F651EF147B6005FB6B0 /* SKAction+ColorChangeAction.swift in Sources */,
+				30CEC6D92118B2BE001D6A87 /* UILabel + BubbleAnimation.swift in Sources */,
 				305F9FFB1EEEEA0800443335 /* SKProduct+LocalizedPrice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
