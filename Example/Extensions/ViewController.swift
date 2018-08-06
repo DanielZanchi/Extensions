@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         print(radians)
         
         let label = UILabel()
-        label.
+        label.bounceAnimation(duration: 0.4, scaleFactor: 1.08)
         
     }
 
