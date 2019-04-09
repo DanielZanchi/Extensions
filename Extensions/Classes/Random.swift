@@ -10,7 +10,7 @@ import Foundation
 
 import CoreGraphics
 
-public extension CGFloat {
+extension CGFloat {
     public static func random() -> CGFloat {
         return CGFloat(Float(arc4random()) / 0xFFFFFFFF)
     }

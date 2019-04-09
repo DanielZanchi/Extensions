@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-public extension UIColor {
+extension UIColor {
     // Construct a color from HEXRGB
     public convenience init(rgbHEX: UInt) {
         self.init(

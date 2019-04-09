@@ -7,7 +7,7 @@
 
 import Foundation
 
-public extension String {
+extension String {
     public static func random(length: Int) -> String {
         let letters : NSString = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
         let len = UInt32(letters.length)
