@@ -11,18 +11,14 @@ import Foundation
 import CoreGraphics
 
 extension CGFloat {
-    public static func random() -> CGFloat {
-        return CGFloat(Float(arc4random()) / 0xFFFFFFFF)
-    }
     
-    public static func random(min: CGFloat, max: CGFloat) -> CGFloat {
+    static func random(min: CGFloat, max: CGFloat) -> CGFloat {
         return CGFloat.random() * (max - min) + min
     }
 }
 
-
-public extension Int {
-    public static func random(min: Int, max: Int) -> Int {
+extension Int {
+    static func random(min: Int, max: Int) -> Int {
         return min + Int(arc4random_uniform(UInt32(max - min + 1)))
     }
 }
