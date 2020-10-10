@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'Extensions'
-s.version          = '1.2'
+s.version          = '1.3'
 s.summary          = 'My personal extension for Swift'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ s.author           = { 'Danny182' => 'danny.zanchi@gmail.com' }
 s.source           = { :git => 'https://github.com/Danny182/Extensions.git', :tag => s.version.to_s }
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '12.0'
 
 s.source_files = 'Extensions/Classes/**/*'
 
